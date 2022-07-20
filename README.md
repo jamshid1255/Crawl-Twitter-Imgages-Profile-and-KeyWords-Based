@@ -28,3 +28,5 @@ The library also allows to --retweets and --replies to include retweets or repli
 The library will only download pictures that are not in the output folder already to avoid duplications. It will also try to download the pictures in their largest possible size.
 
 Usually one is interested in only new pictures that have been posted since the last time an account was checked. However, if the previous pictures were deleted or renamed, they would be redownloaded. To prevent that from happening, a file in the output directory called ".timestamp" is created which is used to mark the last time images were downloaded. If for some reason you want to search further back in time, you may simply delete the .timestamp file. 
+
+![1549554629368844290](https://user-images.githubusercontent.com/48220392/179892437-14f0e81f-da8a-43c2-ac38-e9bf17689d0f.jpg)
