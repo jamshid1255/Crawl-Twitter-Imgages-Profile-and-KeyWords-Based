@@ -187,8 +187,8 @@ def download_images_by_tag(api, tag,num_tweets,   output_folder):
 
 def main():
     output_folder = 'OUTPUT5'
-    consumerKey = 'qaLXIKGtseIbryxEqXiV3UhAH'
-    consumerSecret = 'lYNlv1hwAlyB5Mpz51HF7NbuvAbBnd1UbsNc9NRIARU5vPRxat'
+    consumerKey = 'yyyyy'
+    consumerSecret = 'yyyyyy'
     authenticate = tweepy.OAuthHandler(consumerKey, consumerSecret)
     api = tweepy.API(authenticate, wait_on_rate_limit= True)
 
